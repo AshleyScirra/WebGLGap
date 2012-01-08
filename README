@@ -1,1 +1,19 @@
-Hello world!
+WebGLGap - Enable WebGL in PhoneGap
+===================================
+
+Currently only supported for Android.
+
+How to use
+----------
+
+1.  Add to your plugins.xml (res\xml\plugins.xml in Eclipse):
+
+> <plugin name="WebGLGap" value="com.phonegap.plugin.webglgap.WebGLGapPlugin" />
+
+2.  Add WebGLGapPlugin.java and WebGLGapRenderer.java from src\ to your project
+
+3.  Include webglgap.js from src\ in your index.html, beneath the PhoneGap script, e.g.:
+
+> <script src="phonegap-1.3.0.js"></script>
+> <script src="webglgap.js"></script>
+
