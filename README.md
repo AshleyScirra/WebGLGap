@@ -1,3 +1,5 @@
+# Note: as of 2016 all modern web views have good WebGL support built-in so this isn't useful any more. This is left as a crazy 2011-era hack.
+
 WebGLGap - Enable WebGL in PhoneGap
 ===================================
 
